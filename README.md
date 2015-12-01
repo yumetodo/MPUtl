@@ -5,6 +5,7 @@ Multi-purpose Utility for Multi-media creation and editing
 * To produce an NLE similar to AviUtl with a small set of synth-like build-in functions
 * Light and Simple
 * 8K video capable
+* Embrace HW-acceleration
 
 ## Branches
 * Code: Actual program codes in the ``Code`` folder and build systems in ``Build`` folder
