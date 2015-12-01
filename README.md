@@ -1,6 +1,11 @@
 # MPUtl
 Multi-purpose Utility for Multi-media creation and editing
 
+## Ultimatum
+* To produce an NLE similar to AviUtl with a small set of synth-like build-in functions
+* Light and Simple
+* 8K video capable
+
 ## Branches
 * Code: Actual program codes in the ``Code`` folder and build systems in ``Build`` folder
 * Concepts: Concepts, drafts... note that most materials here will be deleted when approaching release. Feel free to use it to elaborate your idea.
@@ -8,7 +13,7 @@ Multi-purpose Utility for Multi-media creation and editing
 ## Participation
 * Every participant will be granted "member" right
 * Any individual welcomes, as long as you reads and writes simple English
-* Language: make sure you read and write comprehensible English! Writing is CJK, Spanish, Russian... you have to pray me and other participants can read!
+* Language: make sure you read and write comprehensible English! Writing in CJK, Spanish, Russian... you have to pray me and other participants can read!(Though personally I can read Chinese and Japanese)
 
 ## Spec and coding practice
 * Main language: C++11 (C++14 syntax is on hold until major compilers all support it)
