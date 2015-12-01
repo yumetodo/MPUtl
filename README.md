@@ -23,6 +23,7 @@ Multi-purpose Utility for Multi-media creation and editing
 * Commenting style: use triple-slash and asterisk ``///* Comment *///``
 * Disabling a few lines of code: both ``//`` and ``/* */`` acceptable
 * use of ``auto`` and ``var``: do not abuse! Use unless the code would otherwise be lengthy or unsafe.
+* Namespace assume: ```#define NS mu```, than whenever you need to reference it, use ```namespace NS {...}```
 * Disabling a large block of code: enclose the code in 
 ```
 #ifdef __CODEOFF__ 
