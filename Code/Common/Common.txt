@@ -1,0 +1,1 @@
+Things that may be frequently used by core code, plugin and GUI
