@@ -9,6 +9,11 @@ Multi-purpose Utility for Multi-media creation and editing
 ## Branches
 * Code: Actual program codes in the ``Code`` folder and build systems in ``Build`` folder
 * Concepts: Concepts, drafts... note that most materials here will be deleted when approaching release. Feel free to use it to elaborate your idea.
+* Actually I don't care what branch you create, do what you find useful.
+ 
+## Forking
+* If you intend creating a new project by forking this, and going to develop independently, stop. Just clone everything, rename the software name, change the namespace name, than upload to your own repo.
+* Fork only if you are contributing to THIS repo, or when I abandon this project.
 
 ## Participation
 * Every participant will be granted "member" right
