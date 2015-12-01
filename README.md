@@ -17,7 +17,7 @@ Multi-purpose Utility for Multi-media creation and editing
 * Fork only if you are contributing to THIS repo, or when I abandon this project.
 
 ## Participation
-* Every participant will be granted "member" right
+* Every participant will be granted "collaborator" right
 * Any individual welcomes, as long as you reads and writes simple English
 * Language: make sure you read and write comprehensible English! Writing in CJK, Spanish, Russian... you have to pray me and other participants can read!(Though personally I can read Chinese and Japanese)
 
@@ -45,5 +45,14 @@ std::cout<< "Old codes"<<std::endl;
 * Pantented algorithm(e.g. SIFT, SURF), should be provided as optional source code to be compiled by user themselves
 
 
-The above is declared for those who honor the idea of software license. Personally, I do not like them. A "usage and distribution notice" written in plain English is the best IMO.
+The above is declared for those who honor the idea of software license. Personally, I do not want to honor them. A "usage and distribution notice" written in plain English is the best IMO:
 
+## Usage Rights
+1. Do what the fuck you want with code here as long as: you are not selling it or claiming authorship/patent/copyright with 60% code unchanged
+2. If you want to develop or sell something base on this, change the product name and namespace and any product/version string
+3. redistributing with malicious code/components is FORBIDDEN and overrides Term.1
+4. Copying snippnets of codes for your own use is allowed, but limit to 5 classes or 10 isolated functions
+5. This declaration overrides GPL in places where software license or GPL is not legally honoured.
+
+
+Sounds fair enough?
