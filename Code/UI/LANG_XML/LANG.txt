@@ -1,0 +1,1 @@
+XMLs for defining language text of the UI
