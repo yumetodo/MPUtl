@@ -17,11 +17,12 @@ Multi-purpose Utility for Multi-media creation and editing
 * GUI: Any technology welcome, just put them in a separate folder
 * Commenting style: use triple-slash and asterisk ``///* Comment *///``
 * Disabling a few lines of code: both ``//`` and ``/* */`` acceptable
+* use of ``auto`` and ``var``: do not abuse! Use unless the code would otherwise be lengthy or unsafe.
 * Disabling a large block of code: enclose the code in 
-cpp```
+```
 #ifdef __CODEOFF__ 
 #define
 std::cout<< "Old codes"<<std::endl;
 #endif
 ```
-* use of ``auto`` and ``var``: do not abuse! Use unless the code would otherwise be lengthy or unsafe.
+
