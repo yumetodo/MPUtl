@@ -31,3 +31,12 @@ std::cout<< "Old codes"<<std::endl;
 #endif
 ```
 
+## License matter and dependencies
+* __Small dependenices__ with MIT, GPLv2, CC, NoLicense, DWTFYW OK
+* When really essential, can use heavier dependencies(e.g. dotNET, Qt) and other license
+* Use of other commercial material should stay within __fair-use__ limit
+* Pantented algorithm(e.g. SIFT, SURF), should be provided as optional source code to be compiled by user themselves
+
+
+The above is declared for those who honor the idea of software license. Personally, I do not like them. A "usage and distribution notice" written in plain English is the best IMO.
+
