@@ -4,13 +4,42 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Runtime.InteropServices;
+
 
 namespace CLICS
 {
     class CLI
     {
+               
         static void Main(string[] args)
         {
+            UInt32 vendor_buffer_size = 0;
+            Icpucheck.cVendor(null, ref vendor_buffer_size);
+            Int32 bsize= (Int32)vendor_buffer_size;
+            StringBuilder VendorName = new StringBuilder(bsize);
+            Icpucheck.cVendor(VendorName, ref vendor_buffer_size);
+            UInt32 brand_buffer_size = 0;
+            Icpucheck.cBrand(null, ref brand_buffer_size);
+            StringBuilder BrandName = new StringBuilder((Int32)brand_buffer_size);
+            Icpucheck.cBrand(BrandName, ref brand_buffer_size);
+
+            Console.WriteLine("Vendor : {0}; Brand: {1}", VendorName.ToString(), BrandName.ToString());
+            Console.WriteLine("CPU extension detected: ");
+            if (Icpucheck.cSSE()) { Console.Write(" SSE "); }
+            if (Icpucheck.cSSE2()) { Console.Write(" SSE2 "); }
+            if (Icpucheck.cSSE3()) { Console.Write(" SSE3 "); }
+            if (Icpucheck.cSSSE3()) { Console.Write(" SSSE3 "); }
+            if (Icpucheck.cSSE4a()) { Console.Write(" SSE4a "); }
+            if (Icpucheck.cSSE41()) { Console.Write(" SSE41 "); }
+            if (Icpucheck.cSSE42()) { Console.Write(" SSE42 "); }
+            if (Icpucheck.cAVX()) { Console.Write(" AVX "); }
+            if (Icpucheck.cAVX2()) { Console.Write(" AVX2 "); }
+            if (Icpucheck.cFMA()) { Console.Write(" FMA "); }
+            if (Icpucheck.cXOP()) { Console.Write(" XOP "); }
+            if (Icpucheck.cAVX512F()) { Console.Write(" AVX512F "); }
+            Console.WriteLine("\nEND of CPU Detection");
+
             var OS = Environment.OSVersion.Platform;
             if(!Environment.Is64BitOperatingSystem)
             {
